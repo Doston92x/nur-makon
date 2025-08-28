@@ -5,6 +5,11 @@ import { insertBookingSchema, insertContactSchema } from "@shared/schema";
 import { fromZodError } from "zod-validation-error";
 
 export async function registerRoutes(app: Express): Promise<Server> {
+  // Health check endpoint
+  app.get("/health", (req, res) => {
+    res.status(200).send("healthy");
+  });
+
   // Get all rooms
   app.get("/api/rooms", async (req, res) => {
     try {
