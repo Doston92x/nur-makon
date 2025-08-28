@@ -80,7 +80,6 @@ jobs:
     - name: Deploy to Hetzner Server
       uses: appleboy/ssh-action@v1.0.3
       with:
-        debug: true
         host: ${{ secrets.HETZNER_HOST }}
         username: ${{ secrets.HETZNER_USERNAME }}
         key: ${{ secrets.HETZNER_SSH_KEY }}
