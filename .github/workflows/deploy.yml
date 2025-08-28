@@ -77,12 +77,15 @@ jobs:
     if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
     
     steps:
+    - name: Decode SSH private key
+      run: echo "${{ secrets.HETZNER_SSH_KEY_B64 }}" | base64 -d > ./id_ed25519
+      
     - name: Deploy to Hetzner Server
       uses: appleboy/ssh-action@v1.0.3
       with:
         host: ${{ secrets.HETZNER_HOST }}
         username: ${{ secrets.HETZNER_USERNAME }}
-        key: ${{ secrets.HETZNER_SSH_KEY }}
+        key: ./id_ed25519
         script: |
           # Login to DockerHub
           echo ${{ secrets.DOCKERHUB_TOKEN }} | docker login -u ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
