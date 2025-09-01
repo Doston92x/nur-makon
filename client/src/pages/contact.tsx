@@ -96,9 +96,9 @@ export default function Contact() {
                     <div>
                       <h4 className="font-semibold text-gray-900 mb-1">Address</h4>
                       <p className="text-gray-600">
-                        123 Azure Heights Boulevard<br />
-                        Downtown District<br />
-                        New York, NY 10001
+                        Sheroziy 14<br />
+                        Shaykhontohur District<br />
+                        Tashkent Uzbekistan
                       </p>
                     </div>
                   </div>
@@ -110,8 +110,8 @@ export default function Contact() {
                     <div>
                       <h4 className="font-semibold text-gray-900 mb-1">Phone</h4>
                       <p className="text-gray-600">
-                        Front Desk: +1 (555) 123-4567<br />
-                        Reservations: +1 (555) 123-4568
+                        Front Desk: +99899 048-00-00<br />
+                        Reservations: +99899 048-00-00
                       </p>
                     </div>
                   </div>
@@ -123,8 +123,8 @@ export default function Contact() {
                     <div>
                       <h4 className="font-semibold text-gray-900 mb-1">Email</h4>
                       <p className="text-gray-600">
-                        info@azureheights.com<br />
-                        reservations@azureheights.com
+                        info@nurmakonhotel.com<br />
+                        reservations@nurmakonhotel.com
                       </p>
                     </div>
                   </div>
@@ -137,8 +137,7 @@ export default function Contact() {
                       <h4 className="font-semibold text-gray-900 mb-1">Hours</h4>
                       <p className="text-gray-600">
                         Front Desk: 24/7<br />
-                        Concierge: 7:00 AM - 11:00 PM
-                      </p>
+                        </p>
                     </div>
                   </div>
                 </div>
@@ -147,8 +146,8 @@ export default function Contact() {
                 <div className="mt-8">
                   <div className="w-full h-48 bg-gray-200 rounded-lg overflow-hidden">
                     <img
-                      src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400"
-                      alt="Azure Heights Hotel Location"
+                      src="https://www.google.com/maps/place/Nur+Makon+Hotel/@41.3186015,69.2103679,17z/data=!4m20!1m10!3m9!1s0x38ae8bb887c93bdb:0x326f942eb89675af!2sNur+Makon+Hotel!5m2!4m1!1i2!8m2!3d41.3186015!4d69.2103679!16s%2Fg%2F11sswfydsx!3m8!1s0x38ae8bb887c93bdb:0x326f942eb89675af!5m2!4m1!1i2!8m2!3d41.3186015!4d69.2103679!16s%2Fg%2F11sswfydsx?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D"
+                      alt="Nur Makon Hotel Location"
                       className="w-full h-full object-cover"
                     />
                   </div>
