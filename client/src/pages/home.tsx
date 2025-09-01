@@ -9,6 +9,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Wifi, Car, Utensils, Waves } from "lucide-react";
 import { formatPrice } from "@/lib/utils";
 import type { Room } from "@shared/schema";
+import extImg from "./assets/ext.jpeg";
 
 export default function Home() {
   const [checkIn, setCheckIn] = useState("");
