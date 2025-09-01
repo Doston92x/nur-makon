@@ -85,17 +85,17 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Contact Info</h4>
             <div className="space-y-2 text-gray-300">
-              <p>123 Azure Heights Blvd</p>
-              <p>Downtown District, NY 10001</p>
-              <p>+1 (555) 123-4567</p>
-              <p>info@azureheights.com</p>
+              <p> Nur Makon Hotel </p>
+              <p>Toshkent, Shayhontahur, Sheroziy 14 </p>
+              <p>+99899 048-00-00 </p>
+              <p>info@nurmakonhotel.com</p>
             </div>
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-300">
-            &copy; 2024 Azure Heights Hotel. All rights reserved.
+            &copy; Nur Makon Hotel
           </p>
         </div>
       </div>
