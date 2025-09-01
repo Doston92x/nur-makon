@@ -135,7 +135,7 @@ export class MemStorage implements IStorage {
         size: "20 sq meter",
         view: "Garden View",
         amenities: ["Free Wi-Fi", "Air Conditioning", "Mini Fridge", "Work Desk"],
-        imageUrl: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+        imageUrl: "./src/assets/standart.jpeg",
         available: true,
       },
       {
@@ -147,7 +147,7 @@ export class MemStorage implements IStorage {
         size: "24 sq meter",
         view: "Gardeb View",
         amenities: ["Free Wi-Fi", "Air Conditioning", "Mini Fridge", "Work Desk"],
-        imageUrl: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+        imageUrl: "./src/assets/superior.jpeg",
         available: true,
       },
       {
@@ -159,7 +159,7 @@ export class MemStorage implements IStorage {
         size: "26 sq meter",
         view: "Garden View",
         amenities: ["Free Wi-Fi", "Balcony", "Air Conditioning", "Mini Fridge"],
-        imageUrl: "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+        imageUrl: "./src/assets/305.jpeg",
         available: true,
       },
       {
@@ -171,7 +171,7 @@ export class MemStorage implements IStorage {
         size: "30 sq meter",
         view: "Garden View",
         amenities: ["Free Wi-Fi", "Air COnditioning", "Mini Fridge", "Working Desk", "Smart TV"],
-        imageUrl: "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+        imageUrl: "./src/assets/201.jpeg",
         available: true,
       },
       {
