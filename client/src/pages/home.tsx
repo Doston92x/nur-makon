@@ -39,7 +39,7 @@ export default function Home() {
 
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Welcome to <span className="text-amber-500">Azure Heights</span>
+            Welcome to <span className="text-amber-500">Nur Makon Hotel</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 opacity-90">
             Experience luxury and comfort in the heart of the city
