@@ -9,7 +9,6 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Wifi, Car, Utensils, Waves } from "lucide-react";
 import { formatPrice } from "@/lib/utils";
 import type { Room } from "@shared/schema";
-import extImg from "./assets/ext.jpeg";
 
 export default function Home() {
   const [checkIn, setCheckIn] = useState("");
@@ -33,7 +32,7 @@ export default function Home() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: 'url(${extImg})'
+            backgroundImage: "url('/src/assets/ext.jpeg')",
           }}
         />
         <div className="absolute inset-0 bg-black bg-opacity-40" />
