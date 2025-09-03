@@ -9,6 +9,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Wifi, Car, Utensils, Waves } from "lucide-react";
 import { formatPrice } from "@/lib/utils";
 import type { Room } from "@shared/schema";
+import hotelExterior from "../assets/hotel-exterior.jpg"; 
 
 export default function Home() {
   const [checkIn, setCheckIn] = useState("");
@@ -32,7 +33,7 @@ export default function Home() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: "url('/src/assets/ext.jpeg')",
+            backgroundImage: `url(${hotelExterior})`
           }}
         />
         <div className="absolute inset-0 bg-black bg-opacity-40" />
